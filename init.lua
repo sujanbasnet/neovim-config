@@ -1018,4 +1018,4 @@ require('lazy').setup({
 -- vim: ts=2 sts=2 sw=2 et
 
 -- added by me
-require 'custom-keybindings'
+require 'custom.keybindings'
