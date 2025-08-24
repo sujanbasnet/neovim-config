@@ -1,3 +1,5 @@
+vim.env.ANTHROPIC_API_KEY = os.getenv 'AVANTE_ANTHROPIC_KEY'
+
 return {
   'yetone/avante.nvim',
   -- if you want to build from source then do `make BUILD_FROM_SOURCE=true`

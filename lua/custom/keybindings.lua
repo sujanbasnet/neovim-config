@@ -26,3 +26,6 @@ end)
 vim.api.nvim_set_keymap('n', '<C-g><C-d>', ':vsp | :lua vim.lsp.buf.definition()<CR>', { noremap = true, silent = true })
 
 keymap.set('n', '<Leader>rc', ':-1read $HOME/.config/nvim/snippets/react-component.tsx<CR>')
+
+-- Map Ctrl + H to trigger LSP hover
+vim.api.nvim_set_keymap('n', '<C-H>', ':lua vim.lsp.buf.hover()<CR>', { noremap = true, silent = true })
